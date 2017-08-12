@@ -27,5 +27,5 @@ app.get('/blog/:title?', (req, res) => {
   }
 })
 
-app.listen(3000);
+app.listen(80);
 
