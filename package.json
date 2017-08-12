@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.15.3",
     "jade": "^1.11.0"
+  },
+  "engines": {
+    "node": "6.10.3"
   }
 }
