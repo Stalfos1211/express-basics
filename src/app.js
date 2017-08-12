@@ -1,6 +1,7 @@
 'use strict';
 
 let express = require('express'),
+    port = process.env.PORT || 3000,
     posts = require('./mock/post.json'),
     jade = require('jade')
 
@@ -27,5 +28,5 @@ app.get('/blog/:title?', (req, res) => {
   }
 })
 
-app.listen(80);
+app.listen(port);
 
